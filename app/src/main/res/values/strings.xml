@@ -1,0 +1,333 @@
+<resources>
+    <string name="app_name">БоброПляж</string>
+    <string name="app_subtitle">Береговий файловий простір</string>
+
+    <!-- Primary Bottom Navigation (Пляж, Мушлі, Завантаження, Пристрій) -->
+    <string name="nav_beach">Пляж</string>
+    <string name="nav_shells">Мушлі</string>
+    <string name="nav_downloads">Завантаження</string>
+    <string name="nav_device">Пристрій</string>
+
+    <!-- Header, Left Drawer & Three-Dots (...) Menu -->
+    <string name="cd_open_drawer">Відкрити бокову шторку джерел</string>
+    <string name="cd_more_menu">Меню додаткових розділів та налаштувань</string>
+    <string name="menu_item_space">Простір та сортування</string>
+    <string name="menu_item_settings">Налаштування</string>
+    <string name="menu_item_theme_dark">Темна тема (Місячна затока)</string>
+    <string name="menu_item_theme_light">Світла тема (Сонячний берег)</string>
+    <string name="menu_show_hidden_files">Показувати приховані (.файли)</string>
+    <string name="menu_hide_hidden_files">Приховати системні (.файли)</string>
+    <string name="cd_surf_toggle">Перемкнути шум прибою</string>
+    <string name="cd_music_toggle">Перемкнути фонову музику</string>
+    <string name="cd_hero_banner">Бобер відпочиває на піщаному березі біля папок</string>
+    <string name="label_surf_short">Прибій</string>
+    <string name="label_music_short">Мелодія</string>
+    <string name="label_offline_ready">Автономний режим</string>
+    <string name="label_cloud_synced">Хмару підключено</string>
+    <string name="btn_back">Назад</string>
+
+    <!-- Left Side Drawer (Files-style, excluding bottom bar items) -->
+    <string name="drawer_subtitle">Джерела та категорії Files</string>
+    <string name="drawer_section_categories">Категорії</string>
+    <string name="drawer_cat_recent">Нещодавні</string>
+    <string name="drawer_cat_videos">Відео</string>
+    <string name="drawer_cat_audio">Аудіо</string>
+    <string name="drawer_cat_documents">Документи та інші</string>
+    <string name="drawer_cat_starred">Скарбниця (Обране)</string>
+    <string name="drawer_cat_trash">Кошик</string>
+    <string name="drawer_section_providers">Сховища та провайдери</string>
+    <string name="drawer_free_space_fmt">%1$s вільного місця</string>
+    <string name="drawer_provider_connected_fmt">Підключено • %1$s</string>
+    <string name="drawer_provider_cloud_sub">Хмарне сховище документів</string>
+    <string name="drawer_connect_storage_btn">Підключити зовнішню папку</string>
+    <string name="action_restore_from_trash">Відновити на берег</string>
+    <string name="collection_empty_title">У цьому розділі поки порожньо</string>
+    <string name="collection_empty_sub">Файли відповідної категорії з\'являться тут автоматично</string>
+    <string name="provider_open_files_btn">Відкрити файли провайдера</string>
+    <string name="provider_mount_folder_btn">Підключити папку провайдера</string>
+    <string name="provider_hub_desc">Оберіть дію для доступу до файлів «%1$s» через системний інтерфейс провайдера документів Android.</string>
+
+    <!-- Downloads Bottom Tab (Завантаження) -->
+    <string name="downloads_title">Завантаження</string>
+    <string name="downloads_subtitle_mounted">Системна папка /storage/emulated/0/Download</string>
+    <string name="downloads_subtitle_local">Надайте повний доступ, щоб бачити всі файли Download</string>
+    <string name="downloads_mount_card_title">Відкрити системну папку Download</string>
+    <string name="downloads_mount_card_desc">Надайте дозвіл файлового менеджера, щоб бачити всі справжні файли з браузера, Telegram та завантажувачів.</string>
+    <string name="downloads_mount_btn">Підключити Download</string>
+    <string name="downloads_empty_title">У папці Download поки немає файлів</string>
+    <string name="downloads_empty_sub">Справжні завантажені файли з\'являться тут автоматично після завантаження на пристрій</string>
+
+    <!-- All Files Access (MANAGE_EXTERNAL_STORAGE) & Hidden Files -->
+    <string name="all_files_banner_title">Повний доступ до всіх файлів</string>
+    <string name="all_files_banner_desc">Увімкніть дозвіл для БоброПляж, щоб відображати всі реальні файли й папки пристрою (Download, DCIM, Documents, APK, архіви).</string>
+    <string name="all_files_grant_btn">Надати доступ</string>
+    <string name="all_files_granted_sub">Повний доступ до всіх файлів пристрою активний</string>
+    <string name="settings_storage_access_title">Доступ до сховища та відображення</string>
+    <string name="settings_show_hidden_title">Показувати приховані файли (.файли)</string>
+    <string name="settings_show_hidden_desc">Відображати папки та файли, що починаються з крапки (напр. .minecraft, .config, .nomedia)</string>
+
+    <!-- Sub-screen Titles (opened from ... menu) -->
+    <string name="screen_title_settings">Налаштування</string>
+    <string name="screen_title_space">Простір та жести</string>
+
+    <!-- Device Internal Storage Tab (Пристрій) -->
+    <string name="device_internal_title">Внутрішнє сховище</string>
+    <string name="device_root_crumb">Пристрій</string>
+    <string name="device_grant_access_btn">Доступ до папки</string>
+    <string name="device_tap_to_mount">Натисніть, щоб відкрити доступ</string>
+    <string name="device_app_storage_folder">Внутрішні файли БоброПляж</string>
+    <string name="device_android_app_data">Дані застосунку (Android/data)</string>
+    <string name="device_empty_folder">Папка порожня</string>
+    <string name="device_empty_folder_sub">Створіть нову папку, текстовий файл або імпортуйте дані</string>
+
+    <!-- Storage Sources on Beach Tab -->
+    <string name="source_internal_shared">Внутрішнє сховище</string>
+    <string name="source_public_downloads">Download</string>
+    <string name="source_beaver_cove">Бухта Бобрів</string>
+    <string name="source_android_folder">Папка Android</string>
+    <string name="source_connect_folder">Підключити папку</string>
+    <string name="android_folder_hint">Доступ до простору Android/data застосунку та підключення папок Android/media або пристрою</string>
+
+    <!-- Explorer & Sandbox -->
+    <string name="mode_sandbox">Пісочниця</string>
+    <string name="mode_list">Список</string>
+    <string name="sandbox_drag_hint">Перетягуйте файли по піску або кидайте у піщані хатки-папки</string>
+    <string name="sandbox_more_items_fmt">Показано %1$d із %2$d на піску • Увесь список →</string>
+    <string name="btn_tide_arrange">Приплив-лад</string>
+    <string name="search_placeholder">Пошук файлів та папок…</string>
+    <string name="btn_up_folder">На рівень вище</string>
+    <string name="empty_folder_title">Чистий піщаний берег</string>
+    <string name="empty_folder_subtitle">Створіть нову хатку-папку, записку або імпортуйте файли з пристрою</string>
+
+    <!-- Sort Options -->
+    <string name="sort_label">Сортування</string>
+    <string name="sort_date_desc">Нові спочатку</string>
+    <string name="sort_date_asc">Давні спочатку</string>
+    <string name="sort_size_desc">За розміром (спадання)</string>
+    <string name="sort_size_asc">За розміром (зростання)</string>
+    <string name="sort_name_asc">За назвою (А–Я)</string>
+    <string name="sort_category">За категорією</string>
+
+    <!-- Categories -->
+    <string name="cat_all">Усі</string>
+    <string name="cat_folder">Хатки-папки</string>
+    <string name="cat_images">Мушлі-фото</string>
+    <string name="cat_documents">Сувої-документи</string>
+    <string name="cat_audio">Морські зірки (Аудіо)</string>
+    <string name="cat_video">Корали (Відео)</string>
+    <string name="cat_archives">Пляшки й Android</string>
+    <string name="cat_other">Галька (Інше)</string>
+
+    <!-- File Actions & Dialogs -->
+    <string name="fab_add">Додати</string>
+    <string name="action_new_folder">Нова папка</string>
+    <string name="action_new_note">Новий текстовий файл</string>
+    <string name="action_import_file">Імпортувати файл</string>
+    <string name="action_import_photo">Додати фото-мушлю</string>
+    <string name="action_open">Переглянути</string>
+    <string name="action_rename">Перейменувати</string>
+    <string name="action_share">Поділитися</string>
+    <string name="action_star">У скарбницю</string>
+    <string name="action_unstar">Прибрати зі скарбниці</string>
+    <string name="action_move_trash">У корчі (очищення)</string>
+    <string name="action_delete_forever">Видалити назавжди</string>
+    <string name="dialog_folder_title">Нова папка</string>
+    <string name="dialog_folder_hint">Назва папки</string>
+    <string name="dialog_note_title">Новий текстовий сувій</string>
+    <string name="dialog_note_name_hint">Назва файлу (напр. нотатка.txt)</string>
+    <string name="dialog_note_body_hint">Текст файлу…</string>
+    <string name="dialog_rename_title">Перейменувати об\'єкт</string>
+    <string name="btn_save">Зберегти</string>
+    <string name="btn_cancel">Скасувати</string>
+    <string name="btn_close">Закрити</string>
+
+    <!-- Seashell Gallery -->
+    <string name="gallery_title">Галерея мушель</string>
+    <string name="gallery_subtitle">Зображення спливають на теплий берег хвилями прибою</string>
+    <string name="gallery_add_shell">Принести фото</string>
+    <string name="gallery_empty_title">На березі ще немає мушель</string>
+    <string name="gallery_empty_subtitle">Додайте зображення з галереї пристрою — вони плавно спливуть на піску</string>
+    <string name="lightbox_zoom_hint">Щипок для масштабування • Подвійний дотик для скидання</string>
+
+    <!-- Gesture Sorter & Space Optimizer -->
+    <string name="tab_gesture_sorter">Жестове сортування</string>
+    <string name="tab_space_optimizer">Оптимізація простору</string>
+    <string name="gesture_instruction">Свайпайте картку файлу в потрібний бік для миттєвого розподілу</string>
+    <string name="gesture_left">← Сувої</string>
+    <string name="gesture_right">Мушлі →</string>
+    <string name="gesture_up">↑ Скарбниця</string>
+    <string name="gesture_down">↓ Очищення</string>
+    <string name="gesture_done_title">Усі мушлі й колоди розкладено!</string>
+    <string name="gesture_done_subtitle">Бобер задоволений порядком на пляжі. Ви можете оновити чергу або скасувати останній свайп.</string>
+    <string name="btn_reset_deck">Зібрати файли знову</string>
+    <string name="btn_undo">Скасувати дію</string>
+
+    <string name="optimizer_device_storage">Сховище пристрою</string>
+    <string name="optimizer_free_of_total">Вільно %1$s із %2$s</string>
+    <string name="optimizer_largest_title">Найбільші файли для оптимізації</string>
+    <string name="optimizer_trash_clean_btn">Очистити кошик (%1$s)</string>
+    <string name="optimizer_trash_empty">Кошик корчів чистий</string>
+    <string name="optimizer_created_label">Створено: %1$s</string>
+
+    <!-- Cloud Sync & Atmosphere (inside Settings) -->
+    <string name="cloud_optional_banner_title">Повна автономність без вимог хмари</string>
+    <string name="cloud_optional_banner_desc">Усі функції файлового менеджера працюють локально на вашому пристрої. Підключіть хмарне сховище лише якщо бажаєте автоматичне резервне копіювання.</string>
+    <string name="cloud_section_title">Хмарне резервне копіювання</string>
+    <string name="cloud_saf_title">Хмарна папка Android (Google Drive / Nextcloud / OneDrive)</string>
+    <string name="cloud_saf_desc">Оберіть папку будь-якого встановленого хмарного провайдера або зовнішнього накопичувача</string>
+    <string name="btn_choose_cloud_folder">Обрати хмарну папку</string>
+    <string name="btn_disconnect_cloud">Від\'єднати</string>
+    <string name="btn_sync_now">Синхронізувати зараз</string>
+    <string name="cloud_auto_backup">Автоматичне резервне копіювання змін</string>
+    <string name="cloud_webdav_title">Сервер WebDAV (додатково)</string>
+    <string name="cloud_webdav_url_hint">https://cloud.example.com/remote.php/dav/files/user/</string>
+    <string name="cloud_webdav_user_hint">Ім\'я користувача</string>
+    <string name="cloud_webdav_pass_hint">Пароль застосунку / токен</string>
+    <string name="btn_save_webdav">Зберегти WebDAV</string>
+    <string name="cloud_history_title">Журнал синхронізацій</string>
+    <string name="cloud_never_synced">Синхронізація ще не виконувалась (локальний режим)</string>
+
+    <string name="audio_section_title">Звуки океану та атмосфера</string>
+    <string name="audio_surf_title">Шум морського прибою</string>
+    <string name="audio_surf_desc">М\'які хвилі, що накочуються на теплий пісок</string>
+    <string name="audio_music_title">Фонова пляжна мелодія</string>
+    <string name="audio_music_desc">Спокійна акустична маримба й морський бриз</string>
+    <string name="audio_sfx_title">Тактильні звуки піску та води</string>
+    <string name="theme_section_title">Мінімалістична тема</string>
+    <string name="theme_system">Системна</string>
+    <string name="theme_light">Сонячний берег</string>
+    <string name="theme_dark">Місячна затока</string>
+
+    <!-- Smart Multi-File Selection & Total Commander Clipboard -->
+    <string name="sel_count_and_size">%1$d вибр. • %2$s</string>
+    <string name="sel_select_all">Вибрати все</string>
+    <string name="sel_clear_all">Скасувати вибір</string>
+    <string name="sel_drag_rail_cd">Проведіть пальцем для швидкого виділення</string>
+    <string name="action_copy">Копіювати</string>
+    <string name="action_cut">Вирізати</string>
+    <string name="action_copy_tc_list">Список як текст (TC)</string>
+    <string name="action_paste_here">Вставити сюди</string>
+    <string name="action_move_to">Перемістити</string>
+    <string name="action_archive">Архівувати</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_enqueue_audio">У чергу плеєра</string>
+    <string name="clipboard_banner_copy">Буфер копіювання: %1$d ел.</string>
+    <string name="clipboard_banner_cut">Буфер вирізання: %1$d ел.</string>
+    <string name="clipboard_clear_cd">Очистити файловий буфер</string>
+    <string name="dialog_delete_confirm_title">Підтвердження видалення</string>
+    <string name="dialog_delete_confirm_body">Вибрано %1$d елемент(ів) (%2$s). Оберіть дію: перемістити у кошик або видалити назавжди без можливості відновлення.</string>
+    <string name="dialog_move_target_title">Куди перемістити (%1$d ел.)</string>
+
+    <!-- Conflict Resolution & Operation Progress -->
+    <string name="conflict_dialog_title">Файл або папка вже існує</string>
+    <string name="conflict_dialog_body">У цільовій папці вже є елемент «%1$s». Як вчинити?</string>
+    <string name="conflict_overwrite">Перезаписати</string>
+    <string name="conflict_rename_auto">Перейменувати автоматично</string>
+    <string name="conflict_skip">Пропустити</string>
+    <string name="conflict_apply_all">Застосувати до всіх конфліктів</string>
+    <string name="progress_cancel_btn">Перервати</string>
+
+    <!-- Built-in Archiver & Virtual Archive Browser -->
+    <string name="archive_create_title">Створити архів</string>
+    <string name="archive_name_label">Назва архіву (без розширення)</string>
+    <string name="archive_format_label">Формат архіву</string>
+    <string name="archive_dest_current">Поточна папка</string>
+    <string name="archive_dest_downloads">Завантаження</string>
+    <string name="archive_dest_cove">Бухта Бобрів</string>
+    <string name="archive_create_confirm">Створити</string>
+    <string name="archive_viewer_subtitle">Віртуальний перегляд архіву • %1$s</string>
+    <string name="archive_extract_all">Видобути все</string>
+    <string name="archive_extract_selected">Видобути (%1$d)</string>
+    <string name="archive_add_files">Додати у ZIP</string>
+    <string name="archive_open_as_archive">Відкрити як архів</string>
+    <string name="archive_empty_dir">У цій папці архіву порожньо</string>
+
+    <!-- Built-in Audio Player & Queue -->
+    <string name="player_unknown_artist">Невідомий виконавець</string>
+    <string name="player_collapse_cd">Згорнути мініплеєр</string>
+    <string name="player_expand_cd">Розгорнути аудіоплеєр</string>
+    <string name="player_close_cd">Зупинити й закрити плеєр</string>
+    <string name="player_prev_cd">Попередній трек</string>
+    <string name="player_play_pause_cd">Відтворити або призупинити</string>
+    <string name="player_next_cd">Наступний трек</string>
+    <string name="player_shuffle_cd">Перемішування</string>
+    <string name="player_repeat_cd">Режим повтору</string>
+    <string name="player_queue_title">Черга відтворення (%1$d)</string>
+    <string name="player_volume_label">Гучність</string>
+
+    <string name="archive_rar_unsupported">Формат RAR є пропрієтарним: доступний перегляд метаданих і відкриття у зовнішній програмі</string>
+    <string name="msg_copied_to_clipboard">Скопійовано у файловий буфер: %1$d ел.</string>
+    <string name="msg_cut_to_clipboard">Вирізано у файловий буфер: %1$d ел.</string>
+    <string name="msg_tc_list_copied">Список Total Commander (%1$d ел.) скопійовано як текст</string>
+    <string name="msg_paste_done">Успішно оброблено: %1$d ел.</string>
+    <string name="msg_operation_cancelled">Файлову операцію перервано</string>
+    <string name="msg_deleted_count">Видалено назавжди: %1$d ел.</string>
+    <string name="msg_archive_extracted">Видобуто файлів з архіву: %1$d</string>
+    <string name="msg_archive_created">Створено архів «%1$s»</string>
+    <string name="progress_copying">Копіювання файлів…</string>
+    <string name="progress_moving">Переміщення файлів…</string>
+    <string name="progress_extracting">Розпакування архіву…</string>
+    <string name="progress_archiving">Архівація файлів…</string>
+
+    <!-- Compact Search, APK Launch, Installed Apps, Share App, Gallery Zoom & Video Player -->
+    <string name="cd_search_toggle">Відкрити пошук</string>
+    <string name="cd_search_close">Закрити пошук</string>
+    <string name="cd_search_clear">Очистити запит</string>
+    <string name="menu_share_bobroplyazh">Надіслати БоброПляж (.apk)</string>
+    <string name="share_bobroplyazh_chooser">Поділитися БоброПляж (.apk)</string>
+    <string name="msg_apk_share_error">Не вдалося підготувати APK для надсилання</string>
+
+    <string name="drawer_installed_apps">Встановлені програми</string>
+    <string name="drawer_installed_apps_sub">Total Commander • Копіювання та надсилання APK</string>
+    <string name="installed_apps_title">Встановлені програми</string>
+    <string name="installed_apps_subtitle_fmt">%1$d прогр. • Копіюйте APK у папки або діліться</string>
+    <string name="installed_apps_show_system">Системні</string>
+    <string name="installed_apps_copy_to_folder">Кинути APK у папку</string>
+    <string name="installed_apps_copy_tc">У буфер TC</string>
+    <string name="installed_apps_share_apk">Надіслати APK</string>
+    <string name="installed_apps_open_app">Запустити</string>
+    <string name="installed_apps_pick_other_folder">Обрати іншу папку пристрою…</string>
+    <string name="installed_apps_dest_dialog_title">Куди зберегти APK (%1$d)</string>
+    <string name="installed_apps_empty">Програм за запитом не знайдено</string>
+    <string name="msg_apk_copied_to_folder">APK збережено у «%1$s» (%2$d)</string>
+    <string name="msg_apk_copied_to_clipboard">APK додано у буфер копіювання (%1$d) — перейдіть у будь-яку папку й натисніть «Вставити»</string>
+
+    <string name="action_install_apk">Встановити APK</string>
+    <string name="action_open_external">Відкрити у програмі</string>
+    <string name="msg_grant_install_unknown_apps">Дозвольте встановлення невідомих програм для БоброПляж, і пакет запуститься</string>
+    <string name="msg_no_app_to_open">Не знайдено програми для відкриття «%1$s»</string>
+
+    <string name="gallery_subtitle_compact">Фото та відео у високій якості</string>
+    <string name="gallery_add_media">Додати медіа</string>
+    <string name="gallery_filter_all">Усі</string>
+    <string name="gallery_filter_photos">Фото</string>
+    <string name="gallery_filter_videos">Відео</string>
+    <string name="gallery_zoom_out_cd">Зменшити мініатюри (більше стовпців)</string>
+    <string name="gallery_zoom_in_cd">Збільшити мініатюри (менше стовпців)</string>
+    <string name="gallery_columns_fmt">%1$d× сітка</string>
+    <string name="lightbox_open_video_btn">Відтворити відео у плеєрі</string>
+
+    <string name="video_player_back_cd">Закрити відеоплеєр</string>
+    <string name="video_player_rewind_cd">Перемотати на 10 секунд назад</string>
+    <string name="video_player_forward_cd">Перемотати на 10 секунд вперед</string>
+    <string name="video_player_fit_mode">Вписати</string>
+    <string name="video_player_zoom_mode">Заповнити</string>
+    <string name="video_player_speed_fmt">%1$sx</string>
+    <string name="video_player_mute_cd">Увімкнути або вимкнути звук</string>
+    <string name="video_player_error">Не вдалося відтворити це відео</string>
+
+    <string name="menu_share_bobroplyazh_apk">Надіслати БоброПляж (.apk)</string>
+    <string name="share_self_apk_chooser">Поділитися БоброПляж (.apk)</string>
+    <string name="msg_self_apk_share_failed">Не вдалося підготувати APK для надсилання</string>
+    <string name="action_open_externally">Відкрити у програмі</string>
+    <string name="cd_gallery_zoom_out">Зменшити мініатюри (більше стовпців)</string>
+    <string name="cd_gallery_zoom_in">Збільшити мініатюри (менше стовпців)</string>
+    <string name="video_badge_label">ВІДЕО</string>
+    <string name="video_prev">Попередній медіафайл</string>
+    <string name="video_next">Наступний медіафайл</string>
+    <string name="msg_phantom_removed">Видалений файл очищено зі списку</string>
+    <string name="apk_install_permission_needed">Дозвольте встановлення невідомих програм для БоброПляж</string>
+    <string name="apps_action_share_apk">Надіслати APK</string>
+    <string name="apps_action_copy_to_folder">Копіювання APK у папку…</string>
+    <string name="msg_apk_saved_to_folder">Збережено APK (%1$d) у «%2$s»</string>
+</resources>

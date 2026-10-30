@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="beaver_internal_files"
+        path="." />
+    <cache-path
+        name="beaver_cache_files"
+        path="." />
+    <external-files-path
+        name="beaver_android_external_files"
+        path="." />
+    <external-cache-path
+        name="beaver_external_cache"
+        path="." />
+    <external-path
+        name="beaver_external_storage"
+        path="." />
+    <root-path
+        name="beaver_device_root"
+        path="." />
+</paths>
